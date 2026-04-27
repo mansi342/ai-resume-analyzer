@@ -12,6 +12,8 @@ from sentence_transformers import SentenceTransformer
 import nltk
 from nltk.corpus import stopwords
 from nltk.stem import SnowballStemmer
+import nltk
+nltk.download('stopwords')
 
 
 # -----------------------------
